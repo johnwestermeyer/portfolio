@@ -1,16 +1,16 @@
 import React from 'react';
-import space from '../assets/space.jpg'
+import space from '../assets/satellite.PNG'
 
 function NameCard () {
 
     return(
         <>
         <div class="card bg-dark text-white">
-        <img src={space} class="card-img" alt="John Westermeyer" style={{width: "100%"}}/>
-        <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
+        <img src={space} class="card-img" alt="John Westermeyer"/>
+        <div class="card-img-overlay text-center align-middle" style={{background: "rgb(50,50,50,0.5)", display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column"}}>
+            <h5 class="card-title" style={{fontSize: "5vw"}}>John Westermeyer</h5>
+            <br />
+            <p class="card-text" style={{fontSize: "2.5vw"}}>Full Stack Web Developer</p>
         </div>
         </div>
         </>
