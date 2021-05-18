@@ -2,7 +2,8 @@ import './App.css';
 import NavBar from './components/NavBar'
 import NameCard from './components/NameCard'
 import About from './components/About'
-
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
     <NavBar/>
     <NameCard/>
     <About/>
+    <Portfolio/>
+    <Contact/>
     </>
   );
 }
