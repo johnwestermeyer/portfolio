@@ -4,7 +4,8 @@ import resume from '../assets/John-Westermeyer.pdf';
 function Contact() {
 
     return(       
-        <div id="contact" class="mx-auto my-5 p-2 text-center" style={{width: "clamp(279px,75%,800px)", border: "solid 1px black", fontSize:"clamp(12px,1vw,48px)"}}>
+        <div id="contact" class="mx-auto my-5 p-2 text-center" style={{width: "clamp(279px,75%,800px)", fontSize:"clamp(16px,1vw,48px)",
+        backgroundColor: "#fff", borderRadius: "3px", boxShadow:"7px 7px 7px #666", flexShrink: "0"}}>
         <ul className="links" style={{listStyle: "none"}}>
             <li><h1>Contact Me</h1></li>
           <li><a href="https://github.com/johnwestermeyer">GitHub</a></li>
