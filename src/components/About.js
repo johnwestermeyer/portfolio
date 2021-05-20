@@ -3,7 +3,9 @@ import me from '../assets/me.png'
 
 function About() {
 
-    return(       
+    return(
+        <>
+        <h1 class="text-center pt-5">About Me</h1>
         <div id="about" class="mx-auto mt-5 p-2 text-center" style={{width: "clamp(279px,75%,800px)", borderRadius: "3px", boxShadow:"7px 7px 7px #666", fontSize:"clamp(16px,1vw,48px)",
         display:"flex",flexDirection:"row", flexWrap:"wrap", justifyContent:"center", alignItems:"center", backgroundColor:"#fff"}}>
         <div>
@@ -18,7 +20,8 @@ function About() {
         <br />
         Located in Long Beach, California.
         </div>
-        </div>       
+        </div>
+        </>  
     )
 }
 
