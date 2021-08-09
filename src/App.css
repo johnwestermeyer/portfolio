@@ -1,2 +1,9 @@
 body{font-family: 'Raleway', sans-serif;
-background-color: #eee;}
+background-color: #eee;
+padding-top:6vh;
+position: relative}
+
+.navbar-collapse.collapse.show, .navbar-collapse.collapsing{
+    background-color: #eee;
+    border-radius: 10px;
+}

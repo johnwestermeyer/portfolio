@@ -9,8 +9,8 @@ function Portfolio () {
 
     return(
         <>
-           <h1 class="text-center pt-5">Portfolio</h1>
-        <div id="portfolio" class="mx-auto mt-5 text-center" style={{display:"flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", alignItems: "center"}}>
+           <h1 id="portfolio" class="text-center pt-5">Portfolio</h1>
+        <div  class="mx-auto mt-5 text-center" style={{display:"flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", alignItems: "center"}}>
         <Project 
             link={"https://johnwestermeyer.github.io/WeatherDashboard/"}
             img={weather}
